@@ -1,0 +1,129 @@
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root {
+    /* Colors */
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    --very-dark-blue-main: hsl(217, 54%, 11%);
+    --very-dark-blue-card: hsl(216, 50%, 16%);
+    --very-dark-blue-line: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+
+    /* Fonts */
+    --outfit: 'Outfit';
+}
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    font-family: var(--outfit);
+}
+div.Parent-container {
+    background-color: var(--very-dark-blue-main);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.Card-container {
+    background-color: var(--very-dark-blue-card);
+    height: 500px;
+    width: 250px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 15px 5px 15px;
+    box-shadow: 0px 3px 15px 0.5px rgba(0,0,0,0.1);
+}
+div.Part-one-container {
+    /* background-color: white; */
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+}
+.Image-tag {
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; */
+    border-radius: 10px;
+    width: 100%;
+}
+div.Part-two-container {
+    /* background-color: red; */
+    height: 50%;
+    /* align-items: center; */
+    /* width: 100%; */
+}
+h1.Header-tag {
+    color: var(--white);
+    font-size: 22px;
+    padding-top: 15px;
+}
+p.Paragraph-tag {
+    color: var(--soft-blue);
+    font-weight: 300;
+    font-size: 14px;
+    /* opacity: 0.7; */
+    padding-top: 25px;
+}
+div.Details-container {
+    display: flex;
+    /* flex: 1 1; */
+    justify-content: space-between;
+    padding-top: 25px;
+}
+div.Eth-container {
+    display: flex;
+    color: var(--cyan);
+    /* font-size: 15px; */
+}
+p.Eth-tag {
+    font-size: 15px;
+}
+img.Eth-image {
+    width: 10px;
+    margin-right: 5px;
+}
+div.Days-container {
+    display: flex;
+    color: var(--soft-blue);
+}
+p.Clock-tag {
+    font-size: 15px;
+}
+img.Clock-image {
+    width: 20px;
+    margin-right: 5px;
+}
+div.Foot-container {
+    padding-top: 25px;
+}
+hr.divider-solid {
+    border-top: 0.5px solid var(--soft-blue);
+    opacity: 0.5;
+}
+div.Author-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+img.Avatar-image {
+    width: 35px;
+    border: 1px solid var(--white);
+    border-radius: 100%;
+    margin-right: 15px;
+}
+p.Avatar-tag {
+    color: var(--soft-blue);
+    font-size: 14px;
+}
+span.bold {
+    color: var(--white);
+    font-weight: 600;
+}
